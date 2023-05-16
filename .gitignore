@@ -1,2 +1,5 @@
 kubeconfig.yaml
 k3d.me
+*.tfstate
+*.tfstate.backup
+.terraform*
