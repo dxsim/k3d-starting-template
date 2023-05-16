@@ -1,0 +1,10 @@
+kind: Simple
+apiVersion: k3d.io/v1alpha2
+name: my-cluster
+image: rancher/k3s:latest
+servers: 3
+agents: 3
+ports:
+- port: 80:80
+  nodeFilters:
+  - loadbalancer
