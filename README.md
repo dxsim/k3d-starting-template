@@ -20,7 +20,9 @@ Three seperate ways to deploy your k3d cluster
     - `terraform init`
     - `terraform apply`
 
-
+* Destroy terraform deployment
+    - `terraform destroy`
+    
 ## List all available clusters
 ---
 ```
